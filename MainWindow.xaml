@@ -57,7 +57,15 @@
                         <Image Source="/Icons/Paste.png"/>
                     </Button>
                 </ToolBar>
-
+                <ToolBar Header="Socket ToolBar" ToolTip="Commands in this group use for Socket functions">
+                    <Menu>
+                        <MenuItem Header="Menu">
+                            <MenuItem Header ="Create Host" Click="CreateHost" ToolTip="Create Host"/>
+                            <MenuItem Header ="onnect Host" Click="ConnectHost" ToolTip="Connect Host"/>
+                            <MenuItem Header ="Check Status" Click="CheckStatus" ToolTip="Check Status"/>
+                        </MenuItem>
+                    </Menu>
+                </ToolBar>
                 <ToolBar Header="WPF ToolBar" ToolTip="Commands in this group use only WPF">
                     <Button Command="Undo" ToolTip="Undo">
                         <Image Source="/Icons/Undo.png"/>

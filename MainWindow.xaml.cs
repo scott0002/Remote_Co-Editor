@@ -32,7 +32,21 @@ namespace Remote_Co_Editor
             ComponentInfo.SetLicense("FREE-LIMITED-KEY");
         }
 
-
+        private void CreateHost(object sender, System.EventArgs e)
+        {
+            CreateHostWindow subWindow = new CreateHostWindow();
+            subWindow.Show();
+        }
+        private void ConnectHost(object sender, System.EventArgs e)
+        {
+            ConnectHostWindow subWindow = new ConnectHostWindow();
+            subWindow.Show();
+        }
+        private void CheckStatus(object sender, System.EventArgs e)
+        {
+            CheckStatusWindow subWindow = new CheckStatusWindow();
+            subWindow.Show();
+        }
         private void Open(object sender, ExecutedRoutedEventArgs e)
         {
             var dialog = new OpenFileDialog()
