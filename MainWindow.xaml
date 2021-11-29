@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Remote_Co_Editor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Remote Co-Editor" Height="450" Width="800">
     <Grid>
         <DockPanel>
 
@@ -61,7 +61,7 @@
                     <Menu>
                         <MenuItem Header="Menu">
                             <MenuItem Header ="Create Host" Click="CreateHost" ToolTip="Create Host"/>
-                            <MenuItem Header ="onnect Host" Click="ConnectHost" ToolTip="Connect Host"/>
+                            <MenuItem Header ="Connect Host" Click="ConnectHost" ToolTip="Connect Host"/>
                             <MenuItem Header ="Check Status" Click="CheckStatus" ToolTip="Check Status"/>
                         </MenuItem>
                     </Menu>
