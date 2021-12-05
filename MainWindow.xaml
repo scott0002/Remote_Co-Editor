@@ -62,7 +62,8 @@
                         <MenuItem Header="Menu">
                             <MenuItem Header ="Create Host" Click="CreateHost" ToolTip="Create Host"/>
                             <MenuItem Header ="Connect Host" Click="ConnectHost" ToolTip="Connect Host"/>
-                            <MenuItem Header ="Check Status" Click="CheckStatus" ToolTip="Check Status"/>
+                            <MenuItem Header ="Check Status" Click="CheckStatus" ToolTip="Check Status"
+                            <MenuItem Header ="Disconnection" Click="Disconnection" ToolTip="Disconnection"/>
                         </MenuItem>
                     </Menu>
                 </ToolBar>
@@ -131,7 +132,7 @@
 
             </ToolBarTray>
 
-            <RichTextBox x:Name="richTextBox" AcceptsTab="True" VerticalScrollBarVisibility="Auto"/>
+            <RichTextBox x:Name="richTextBox" AcceptsTab="True" VerticalScrollBarVisibility="Auto" TextChanged="rtb_TextChanged"/>
 
         </DockPanel>
     </Grid>
