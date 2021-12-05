@@ -31,7 +31,14 @@ namespace Remote_Co_Editor
             // If using Professional version, put your serial key below.
             ComponentInfo.SetLicense("FREE-LIMITED-KEY");
         }
-
+        private void rtb_TextChanged(object sender, EventArgs e)
+        {
+            if(GlobalVars.isConnect)
+            {
+                // to-do, pass some parameters
+                GlobalVars.Send();
+            }
+        }
         private void CreateHost(object sender, System.EventArgs e)
         {
             CreateHostWindow subWindow = new CreateHostWindow();
@@ -45,7 +52,22 @@ namespace Remote_Co_Editor
         private void CheckStatus(object sender, System.EventArgs e)
         {
             CheckStatusWindow subWindow = new CheckStatusWindow();
+            subWindow.UserInfoReloader();
             subWindow.Show();
+        }
+
+        private void Disconnection(object sender, System.EventArgs e)
+        {
+            // if I am server, Ishould send message to clients
+            if(GlobalVars.isServer)
+            {
+                //todo
+            }
+            GlobalVars.isConnect = false;
+            GlobalVars.isClient = false;
+            GlobalVars.isServer = false;
+            GlobalVars.UserList = new List<Tuple<string, string>>();
+            GlobalVars.ServerAddreass = new(item1: null, item2: null);
         }
         private void Open(object sender, ExecutedRoutedEventArgs e)
         {
