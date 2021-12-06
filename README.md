@@ -35,4 +35,5 @@ Clear connection.
 2. https://github.com/GemBoxLtd/GemBox.Document.Examples
 3. https://www.itread01.com/content/1550006300.html
 4. https://docs.microsoft.com/en-us/answers/questions/514638/how-to-trigger-a-text-changed-event-of-a-wpf-rich.html
-5. 
+5. https://medium.com/delightlearner/c-development-%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%BB%BA%E7%AB%8B-tcp-ip-%E9%80%A3%E7%B7%9A%E4%B8%A6%E5%82%B3%E9%80%81%E8%B3%87%E6%96%99-ad28d0f01520
+6. https://github.com/tsai1247/SocketChatroom_for_Windows
