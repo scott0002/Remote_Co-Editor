@@ -1,6 +1,9 @@
 # Remote_Co-Editor
 This project is for socket programming of "Computer Networking" Class.
 
+## GitHub link
+https://github.com/scott0002/Remote_Co-Editor
+
 ## Tech Stack
 ### Language
 C#
