@@ -9,6 +9,15 @@ https://github.com/scott0002/Remote_Co-Editor
 C#
 ### Framework
 Windows Presentation Foundation (WPF)
+### Implementation Details
+#### core function - co-editor
+When client's text changed, then update to server. When server's text changed or receive update, then update to all clients. In this manner, co-editor can serve more than two users. 
+#### Create Host (server)
+Server-side socket programming
+#### Connect Host (client)
+Client-side socket programming
+#### Check Status
+Maintain UserList in server-side, and update to clients when new client connect to server.
 
 ## Features
 ### core function - co-editor
