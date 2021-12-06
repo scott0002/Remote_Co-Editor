@@ -6,17 +6,19 @@ This project is for socket programming of "Computer Networking" Class.
 Multiple users connected, they can edit same text at the same time.
 
 ### Create Host (server)
-input IP and Port, then click "create". 
+Input IP and Port, then click "create". 
 Server will be created, and you can check connection status in "check status" feature.
 
 ### Connect Host (client)
-input IP and Port you want to connect, then click "connect". 
+Input IP and Port you want to connect, then click "connect". 
 Client will connect to Server, and you can check connection status in "check status" feature.
 
 ### Check Status
-open it, you will see server's IP and Port, and all clients' IP and Port. 
+Open it, you will see server's IP and Port, and all clients' IP and Port. 
 Besides, click "Reload" can update this status to check whether there is new client connection.
 
+### Disconnection
+Clear connection.
 
 ## Issue track
 1. https://stackoverflow.com/questions/15636047/image-in-wpf-button-not-visible-at-runtime
