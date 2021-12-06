@@ -1,6 +1,12 @@
 # Remote_Co-Editor
 This project is for socket programming of "Computer Networking" Class.
 
+## Tech Stack
+### Language
+C#
+### Framework
+Windows Presentation Foundation (WPF)
+
 ## Features
 ### core function - co-editor
 Multiple users connected, they can edit same text at the same time.
